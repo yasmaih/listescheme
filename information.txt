@@ -1,0 +1,30 @@
+read me txt 
+
+
+On va commencer a s'interesser au types de les plus basiques. On va commencer par l'affichage d'une liste , avec null et le sens inverse de la lisye$
+
+TP 1, 2, 3
+I.
+La famille :
+Vous avez créé plusieurs prédicats pour illustrer les relations familiales. Il faut créer des listes pour les prédicats homme/1 et femme/1 avec les noms de votre choix.
+Vous devez faire des listes des hommes et des femmes et redéfinir les prédicats homme et femme qui valideront un X comme un homme si X fait partie de la liste des hommes, même chose pour les femmes.
+II.
+Les successeurs :
+Vous avez une suite des entiers naturels telle que nous l'avons défini en cours :
+succ(0).
+succ(s(X)):- succ(X).
+Donnez des prédicats des opérations arithmétiques comme :
+plus/3
+mult/3
+puissance/3
+Et des prédicats de conversion :
+succ_to_dec/2
+dec_to_succ/2
+III.
+Traiter les élements d'une liste :
+Définissez les prédicats suivants :
+1) occurrence/3 : le prédicat prend trois arguments le premier et l'élément dont on cherche à savoir le nbr d'occurrence(3e arg) dans la liste qui est le 2e arg.
+2) longueur_liste/2 : le prédicat longueur donne le nbr total d'éléments d'une liste.
+3) n_ième élément : trouver le n_ième élément d'une liste.
+4) ajout_nb_liste : il ajoute un nombre dans une liste ordonnée en le mettant à la bonne place.
+5) dernier élément d'une liste.
