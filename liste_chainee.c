@@ -43,6 +43,23 @@ liste_t creer (int nb) {
 }
 
 
+liste_t creerliste2 (int nb) {
+	liste_t debut;
+	int i, j, k, t;
+	j = 200;
+	k = 21;
+	debut = (liste_t) 0;
+	for (i = 0; i < nb; i++) {
+		debut = cons (j, debut);
+		t = (j + k) % 31;
+		k = j;
+		j = t;
+	}
+	return debut;
+}
+
+
+
 //Afficher la liste 
 void Afficherliste (liste_t l);
 void afflirec(liste_t l);
